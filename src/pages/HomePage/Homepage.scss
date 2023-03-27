@@ -1,0 +1,72 @@
+.homepage{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFE71;
+    overflow: auto;
+
+    .home-container{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+
+    .product-card{
+        width: 20%;
+        height: 50vh;
+        background-color: #fff;
+        margin: 1rem;
+        padding: 10px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+
+        .link{
+            text-decoration: none;
+            color: #000;
+        }
+
+        img{
+            width: 100%;
+            height: 30vh;
+            object-fit: cover;
+        }
+        
+        h4{
+            font-size: 18px;
+            color: #6d6c6c;
+        }
+        h2{
+            font-size: 24px;
+
+        }
+        h3{
+           font-size: 22px; 
+        }
+        button{
+            width: 40%;
+            height: 4vh;
+            margin-top: 5%;
+            background-color:#0BDA51;
+            border: 1px solid #0BDA51;
+            border-radius: 10px;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 800;
+
+            .icon{
+                font-size: 20px;
+            }
+
+            &:hover{
+                background-color: #078a33;
+            }
+        }
+    }
+
+
+    }
+
+}

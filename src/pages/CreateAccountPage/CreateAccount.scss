@@ -1,0 +1,131 @@
+.Create-account{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url('../../Assets/wallpaper2.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        height: 40vh;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        flex-direction: column;
+        
+        
+         
+        form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+
+        input{
+            width: 90%;
+            height: 4vh;
+            margin-top: 1rem;
+            border-radius: 10px;
+            border: 1px solid #fff;
+            padding-left: 1rem;
+        }
+
+        button{
+            width: 92%;
+            height: 4vh;
+            background-color: #0BDA51;
+            margin-top: 1rem;
+            border: 1px solid #0BDA51;
+            border-radius: 10px;
+            cursor: pointer;
+            color: #fff;
+        }
+
+        }
+        hr{
+            width: 100%;
+            margin-top: 1rem;
+        }
+        .buttons{
+            display: flex;
+            flex-direction: column;
+            margin-top: .5rem;
+            width: 92%;
+            
+           
+            .facebook{
+                background-color: #1876f200;
+                height: 4vh;
+                border: 1px solid #000;
+                border-radius: 10px;
+                color: #000;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: .5rem;
+               
+                .icon{
+                    font-size: 20px;
+           
+                }
+
+                &:hover{
+                    background-color: #1876f2;
+                    color: #fff;
+                    border: 1px solid #1876f2 ;
+                }
+            }
+            .google{
+                margin-top: .5rem;
+                background-color: #d1133300;
+                height: 4vh;
+                border: 1px solid #000;
+                border-radius: 10px;
+                color: #000;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: .5rem;
+
+                .icon{
+                    font-size: 20px;
+                }
+
+                &:hover{
+                    background-color: #d11333;
+                    color: #fff;
+                    border: 1px solid #d11333 ;
+                }
+            }
+
+
+        }
+
+
+        .links{
+            margin-top: 2rem;
+            display: flex;
+            gap: 1rem;
+            color: #000;
+
+            .other-links{
+                color: #000;
+            }
+
+            P{
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+
+
+    }
+}
