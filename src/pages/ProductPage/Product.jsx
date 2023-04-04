@@ -9,11 +9,11 @@ const Product = () => {
     const {id}= useParams()
 
     useEffect(()=>{
-        fetch(`https://dummyjson.com/products/${id}`)
+        fetch(`http://localhost:3000/sneakers${id}`)
         .then(res => res.json())
-        .then((data)=>{
-            console.log(data)
-            setProducts(data)
+        .then((sneakers)=>{
+            console.log(sneakers)
+            setProducts(sneakers)
         });
     
     },[])

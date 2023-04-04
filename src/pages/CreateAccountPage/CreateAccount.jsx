@@ -16,7 +16,7 @@ const CreateAccount = () => {
         </form>
         <hr />
         <div className="links">
-            <Link to='/' className='other-links'>Already have an account?Login</Link>
+            <Link to='/login' className='other-links'>Already have an account?Login</Link>
            
         </div>
 

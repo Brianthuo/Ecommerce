@@ -1,0 +1,69 @@
+{
+  "sneakers": [
+      {
+          "id":1,
+          "img": "https://i.pinimg.com/564x/b6/6b/3c/b66b3c8a634a88a1edc366519bb51bbe.jpg",
+          "title": "Air jordans 4",
+          "brand": "Nike",
+          "color": "white",
+          "price": 4200
+      },
+      {
+          "id":2,
+          "img": "https://i.pinimg.com/564x/ef/6d/52/ef6d525ff1de41d87e562c724c3202c1.jpg",
+          "title": "Air jordans 1",
+          "brand": "Nike",
+          "color": "white",
+          "price": 4500
+      },
+      {
+          "id":3,
+          "img": "https://i.pinimg.com/564x/a6/8c/1b/a68c1b7cd490e87ce488b369dad28d5c.jpg",
+          "title": "Air Max",
+          "brand": "Nike",
+          "color": "black",
+          "price": 3800
+      },
+      {
+          "id":4,
+          "img": "https://i.pinimg.com/564x/84/54/0f/84540f23457efd86c64c5e86f8c64d3b.jpg",
+          "title": "Nike pegasus",
+          "brand": "Nike",
+          "color": "Grey military green",
+          "price": 4000
+      },
+      {
+          "id":5,
+          "img": "https://i.pinimg.com/564x/7b/2f/7a/7b2f7a2ca5f53badc8a2f69d6f6137e4.jpg",
+          "title": "Nike jordan 2",
+          "brand": "Nike",
+          "color": "Grey military green",
+          "price": 4000
+      },
+      {
+          "id":6,
+          "img": "https://i.pinimg.com/564x/d0/cf/de/d0cfde66e751cd443a53e3914a504c36.jpg",
+          "title": "Air force",
+          "brand": "Nike",
+          "color": "Red blue",
+          "price": 3800
+      },
+      {
+          "id":7,
+          "img": "https://i.pinimg.com/564x/c2/f1/27/c2f12717650736915c0235bfce2cbff9.jpg",
+          "title": "Infinity run",
+          "brand": "Nike",
+          "color": "Red blue",
+          "price": 4800
+      },
+      {
+          "id":8,
+          "img": "https://i.pinimg.com/564x/a1/e7/b8/a1e7b84a1dfabd5f4a12d71d6f97114a.jpg",
+          "title": "Air Max ",
+          "brand": "Nike",
+          "color": "Red blue",
+          "price": 4800
+      }
+      
+  ]
+}

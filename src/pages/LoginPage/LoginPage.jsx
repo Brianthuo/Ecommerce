@@ -13,7 +13,7 @@ const LoginPage = () => {
         <form action="">
             <input type="text" placeholder='Email or Phonenumber' />
             <input type="password" placeholder='password' />
-            <Link to='/HomePage' className='login-button'>Login with E-mail</Link>
+            <Link to='/' className='login-button'>Login with E-mail</Link>
         </form>
         <hr />
         <div className="buttons">

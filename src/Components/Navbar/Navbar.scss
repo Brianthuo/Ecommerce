@@ -1,25 +1,87 @@
+@import '../../breakpoints.scss';
 .navbar{
     width: 100%;
     height: 5vh;
-    background-color: #FFD800;
+    background-color: #5d4f10;
     z-index: 1000;
     position: fixed;
+
+     @include sm{
+           height: 8vh; 
+        }
+         @include md{
+            
+        }
+        @include lg{
+ 
+       }
+        @include xl{
+
+       }
+        @include breakpoint(1200px){
+
+       }
 
     .nav-list{
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 1rem;
+
+        @include sm{
+            padding: .5rem;
+        }
+         @include md{
+            
+        }
+        @include lg{
+ 
+       }
+        @include xl{
+
+       }
+        @include breakpoint(1200px){
+
+       }
         ul{
             display: flex;
             list-style: none;
             gap: 1rem;
 
+            @include sm{
+              gap: .01rem;
+            }
+             @include md{
+                
+            }
+            @include lg{
+     
+           }
+            @include xl{
+    
+           }
+            @include breakpoint(1200px){
+    
+           }
+
             li{
                 cursor: pointer;
+                color: #fff;
+
+                .link{
+                    color: #fff;
+                    padding: 10px;
+                    &:hover{
+                        color: #000;
+                        background-color: #F4d504;
+                        border: 1px solid #F4d504 ;
+                        border-radius: 10px;
+
+                     }
+                }
                 
                 &:hover{
-                   color: #fff;
+                   color: #FFF;
                 }
             }
         }

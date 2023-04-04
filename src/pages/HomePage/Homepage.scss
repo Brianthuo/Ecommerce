@@ -1,8 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import '../../breakpoints.scss';
+
 .homepage{
     width: 100%;
     height: 100vh;
-    background-color: #FFFE71;
+    background-color: #F4d504;
     overflow: auto;
+
+    @include sm{
+            
+    }
+     @include md{
+        
+    }
+    @include lg{
+
+   }
+    @include xl{
+
+   }
+    @include breakpoint(1200px){
+
+   }
+
+    .landing-page{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(#ffffff00, #f4d40452), url(../../Assets/landingPG.jpg);
+        background-position: center;
+        background-size: contain;
+
+        @include sm{
+        }
+         @include md{
+            
+        }
+        @include lg{
+    
+       }
+        @include xl{
+    
+       }
+        @include breakpoint(1200px){
+    
+       }
+
+
+        .landing-content{
+            width: 90%;
+            height: 100vh;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: 5%;
+            margin-top: 10%;
+
+            h1{
+                color: #fff;
+                font-size: 82px;
+                font-family: 'Nanum Brush Script', cursive;
+                font-weight: 800;
+            }
+            h4{
+                color: #fff;
+                font-size: 52px;
+                font-family: 'Nanum Brush Script', cursive;
+            }
+
+        }
+
+    }
+
+    .product-type{
+        width: 100%;
+        height: 80vh;
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        @include sm{
+            height: auto;
+        }
+         @include md{
+            
+        }
+        @include lg{
+ 
+       }
+        @include xl{
+
+       }
+        @include breakpoint(1200px){
+
+       }
+        
+        
+        h1{
+            font-size: 62px;
+            font-family: 'Nanum Brush Script', cursive;
+            text-align: center;
+            color: #000;
+
+        }
+
+
+        .images{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+        width: 80%;
+
+        @include sm{
+            flex-direction: column;
+        }
+         @include md{
+            
+        }
+        @include lg{
+ 
+       }
+        @include xl{
+
+       }
+        @include breakpoint(1200px){
+
+       }
+        
+
+            .malewear{
+                width: 100%;
+                height: 65vh;
+                display: flex;
+                 align-items: center;
+                 justify-content: center;
+                 position: relative;
+                 flex-direction: column;
+
+                 h2{
+                    font-family: 'Nanum Brush Script', cursive;
+                    font-size: 42px;
+                 }
+                
+                img{
+                    width: 90%;
+                    height: 95%; 
+                    object-fit: cover; 
+                    border: 1px solid #f4d40471;
+                    border-radius: 15px;
+                    cursor: pointer;
+                    opacity: 1;
+                    
+                }
+
+        
+    
+            }
+    
+            .femalewear{
+                width: 100%;
+                height: 65vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                flex-direction: column;
+    
+                h2{
+                    font-family: 'Nanum Brush Script', cursive;
+                    font-size: 42px;
+                 }
+
+                img{
+                    width: 90%;
+                    height: 95%; 
+                    object-fit: cover; 
+                    border: 1px solid #F4d504;
+                    border-radius: 15px;
+                    cursor: pointer;
+                }
+
+                
+            }
+
+        }
+        
+
+    }
 
     .home-container{
     display: flex;
@@ -10,7 +197,23 @@
     overflow: auto;
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 3rem;
+
+    @include sm{
+          flex-direction: column;  
+    }
+     @include md{
+        
+    }
+    @include lg{
+
+   }
+    @include xl{
+
+   }
+    @include breakpoint(1200px){
+
+   }
 
     .product-card{
         width: 20%;
@@ -20,6 +223,22 @@
         padding: 10px;
         border: 1px solid #fff;
         border-radius: 10px;
+
+        @include sm{
+            width: 80%;
+        }
+         @include md{
+            
+        }
+        @include lg{
+ 
+       }
+        @include xl{
+
+       }
+        @include breakpoint(1200px){
+
+       }
 
         .link{
             text-decoration: none;
