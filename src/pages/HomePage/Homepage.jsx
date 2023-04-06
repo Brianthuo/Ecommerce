@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Homepage.scss'
+import {data} from '../../data'
 import Navbar from '../../Components/Navbar/Navbar'
 import {AiOutlinePlus} from 'react-icons/ai'
 import { Link } from 'react-router-dom'
@@ -9,7 +10,7 @@ import malewear from '../../Assets/Malewear.jpg'
 
 const Homepage = () => {
 
-    const [products, setProducts]= useState([])
+    const [products, setProducts]= useState([data])
 
     //auth and token
 
@@ -28,15 +29,15 @@ const Homepage = () => {
 
 //get all prooducts 
 
-useEffect(()=>{
-    fetch('http://localhost:3000/sneakers')
-    .then(res => res.json())
-    .then((sneakers)=>{
-        setProducts(sneakers)
-        // console.log(data.products)
-    });
+// useEffect(()=>{
+//     fetch('http://localhost:3000/sneakers')
+//     .then(res => res.json())
+//     .then((sneakers)=>{
+//         setProducts(sneakers)
+//         // console.log(data.products)
+//     });
 
-},[])
+// },[])
 
 console.log(products)
 
@@ -84,16 +85,16 @@ console.log(products)
           
 
         {
-            products.map((products)=>{
+            data.map((data)=>{
                 return(
                     <div className='product-card'>
-                    <Link className='link' to={`/Product/${products&&products.id}`}>
-                    <img src={products&&products.img} alt="" />
+                    <Link className='link' to={`/Product/${data.id}`}>
+                    <img src={data.img} alt="" />
                     
                     <div className="card-content">
-                    <h4>{products&&products.brand}</h4>
-                    <h2>{products&&products.title}</h2>
-                    <h3>Ksh {products&&products.price}</h3>
+                    <h4>{data.brand}</h4>
+                    <h2>{data.title}</h2>
+                    <h3>Ksh {data.price}</h3>
                     </div>
                   </Link>
                     <div className="card-button">
